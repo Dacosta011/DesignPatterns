@@ -40,9 +40,8 @@ class ConcreteCreatorB extends Creator {
   }
 }
 
-// Usage
 const creatorA: Creator = new ConcreteCreatorA();
-creatorA.someOperation(); // Output: Using Product A
+creatorA.someOperation();
 
 const creatorB: Creator = new ConcreteCreatorB();
-creatorB.someOperation(); // Output: Using Product B
+creatorB.someOperation();

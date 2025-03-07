@@ -48,7 +48,6 @@ class ConcreteBuilder implements Builder {
   }
 }
 
-// Step 4: Usage of Builder Pattern
 const builder = new ConcreteBuilder();
 const product = builder.setPartA("Component A").setPartB("Component B").build();
-product.show(); // Output: Product created with: PartA = Component A, PartB = Component B
+product.show();
